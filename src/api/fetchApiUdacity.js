@@ -19,8 +19,8 @@ export default function fetchApiUdacity(url, udacityAuthToken = '') {
     Accept: 'application/json',
     Authorization: `Bearer ${udacityAuthToken}`,
     Host: 'review-api.udacity.com',
-    Origin: 'https://review.udacity.com',
-    Referer: 'https://review.udacity.com',
+    Origin: 'https://reviews.udacity.com',
+    Referer: 'https://reviews.udacity.com/',
     // https://github.com/request/request/issues/2047#issuecomment-272473278
     // avoid socket hang up error
     Connection: 'keep-alive',
